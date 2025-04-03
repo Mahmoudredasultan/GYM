@@ -1,0 +1,13 @@
+.table1 {
+    color: white;
+    background-image: url("../../images/schedule-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.table1 table td {
+    text-align: center;
+    width: 25%;
+    border: 2px solid white;
+    height: 100px;
+}

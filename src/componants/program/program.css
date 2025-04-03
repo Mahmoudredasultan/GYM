@@ -1,0 +1,26 @@
+.program h1{
+  font-size: 28px;
+  font-weight: 800;
+}
+.head {
+  text-align: center;
+}
+.head h1 span{
+  color: var(--main-color);
+}
+.program .option img{
+  width: 100px;
+  height: 100px;
+}
+.head h1{
+  font-size: 28px;
+  font-weight: 800;
+}
+.head p{
+  max-width: 500px;
+  line-height: 2;
+}
+.program .option a{
+  color: var(--main-color);
+  text-decoration: none;
+}

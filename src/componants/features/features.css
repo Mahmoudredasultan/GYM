@@ -1,0 +1,33 @@
+.features .cont p {
+    font-weight: 600;
+}
+.features .cont {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 30px;
+    font-size: 19px;
+    border-radius: 10px;
+}
+.features center button:first-child {
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 20px !important;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px !important;
+    font-weight: 800;
+}
+.features .right-side img {
+    border-radius: 10px;
+}
+.features .right-side h2 {
+    font-size: 23px;
+}
+@media (min-width: 992px) {
+    .features .right-side,
+    .features .left-side {
+        width: calc(50% - 12px);
+    }
+    .features .left-side {
+        margin-right: 24px !important;
+    }
+}

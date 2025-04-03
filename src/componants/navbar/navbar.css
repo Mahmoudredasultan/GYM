@@ -1,0 +1,106 @@
+.nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  color: white;
+  background-color: rgba(255, 255, 255, 10%);
+}
+.scrolled{
+  background-color: white;
+  color: black;
+}
+.nav .container{
+  position: relative;
+}
+.nav h2{
+  font-size: 28px;
+  font-weight: 800;
+  
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.nav a p{
+  width: 100%;
+  transition: 0.3s;
+}
+.nav a .active{
+  color: var(--main-color);
+}
+@media(min-width:992px){
+  .nav p{
+    color: white;
+  }
+}
+.nav h2 span{
+  font-weight: normal;
+  color: var(--main-color);
+}
+.nav button{
+  background-color: var(--main-color);
+  color: white;
+}
+
+.nav .icon {
+  width: 40px ;
+}
+.nav .i {
+  width: 80%;
+  height: 3px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  background-color: var(--main-color);
+}
+.nav .i:nth-child(2) {
+  width: 100%;
+}
+.nav .clicked1{
+  transform: rotate(45deg) translate(8px, 8px);width: 100%; 
+}
+.nav .clicked2{
+  opacity: 0;
+}
+.nav .clicked3{
+  transform: rotate(-45deg) translate(8px, -8px);width: 100%;
+}
+@media(max-width: 992px){
+  .nav .right-content{
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    z-index: 99;
+    transition: 0.3s;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+  }
+  .nav .top{
+    top: 160%;
+  }
+  .nav .right-content .list{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .nav .right-content .list p,
+  .nav .right-content button{
+    width: 100%;
+    margin: 0 !important;
+  }
+  .nav .right-content .list p{
+    padding: 20px;
+  }
+}
+@media(min-width:992px){
+  .nav .icon{
+    display: none;
+  }
+}

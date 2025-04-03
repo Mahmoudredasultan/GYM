@@ -1,0 +1,28 @@
+.contact{
+  overflow-x: hidden !important;
+}
+
+iframe{
+  max-height: 300px;
+}
+
+.contact-us{
+  background-image: url('../../images/contact-bg.jpg');
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.contact form{
+  background-color: white;
+  font-size: 13px;
+  border-radius: 7px;
+}
+.contact form input{
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+}
+.contact form textarea{
+  border: 1px solid rgb(221, 221, 221);
+  width: 100%;
+  min-height: 200px;
+}

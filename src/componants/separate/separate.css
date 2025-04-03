@@ -1,0 +1,19 @@
+.separate{
+  background-image: url('../../images/cta-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: white;
+}
+.separate h1{
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.separate h1 span{
+  color: var(--main-color);
+}
+.separate p{
+  max-width: 800px;
+}
